@@ -12,7 +12,7 @@
     "eslintconfig",
     "teem"
   ],
-  "author": "Brandon Beeks <brandon@beeks.me>",
+  "author": "Teem",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/enderlabs/eslint-config-teem/issues"
