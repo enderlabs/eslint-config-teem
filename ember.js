@@ -11,9 +11,11 @@ module.exports = {
     'jstz':       false,
     'Modernizr':  false,
     'moment':     false,
+    'noUiSlider': false,
     'server':     false,
     'Set':        false,
     'toastr':     false,
+    'wNumb':      false,
     'zxcvbn':     false,
   }
 };
