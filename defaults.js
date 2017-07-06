@@ -34,25 +34,16 @@ module.exports = {
     "brace-style": [2,"1tbs",{"allowSingleLine":true}],
     "comma-spacing": [2,{"after":true}],
     "eol-last": 2,
-    // "key-spacing": [
-    //   "error",
-    //   {
-    //     "singleLine": {
-    //         "beforeColon": false,
-    //         "afterColon" : true,
-    //         //"align"      : "colon"
-    //     },
-    //     "multiLine": {
-    //         "beforeColon": false,
-    //         "afterColon" : true,
-    //     },
-    //     "align": {
-    //       "beforeColon": false,
-    //       "afterColon" : true,
-    //       "on": "value"
-    //     }
-    //   }
-    // ],
+    "key-spacing": [
+      "error",
+      {
+        "align": {
+          "beforeColon": false,
+          "afterColon" : true,
+          "on": "value"
+        }
+      }
+    ],
     "new-parens": 1,
     "no-inline-comments": 1,
     "no-multiple-empty-lines": [2,{"max":1}],
@@ -63,12 +54,10 @@ module.exports = {
     "semi-spacing": [2,{"after":true}],
     "semi": [2,"always"],
     "sort-vars": 1,
-    //"space-after-keywords": [2,"always"],
     "space-before-blocks": [2,"always"],
     "space-before-function-paren": [2,{"anonymous":"never","named":"never"}],
     "space-in-parens": [2,"never"],
     "space-infix-ops": [2,{"int32Hint":true}],
-    //"space-return-throw-case": 2,
     "arrow-parens": [2,"as-needed"],
     "arrow-spacing": [2,{"before":true,"after":true}],
     "generator-star-spacing": [2,"after"],
