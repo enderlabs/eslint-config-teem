@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-teem",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Rules and styles used by Teem's javascript team.",
   "main": "index.js",
   "repository": {
