@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'eslint:recommended',
+  extends: 'teem/defaults',
   rules: {
     'eol-last': 'warn',
     'no-case-declarations': 'off',
