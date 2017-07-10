@@ -34,6 +34,7 @@ module.exports = {
     "brace-style": [2,"1tbs",{"allowSingleLine":true}],
     "comma-spacing": [2,{"after":true}],
     "eol-last": 2,
+    "keyword-spacing": [2,{"after":true}],
     "key-spacing": [
       "error",
       {
