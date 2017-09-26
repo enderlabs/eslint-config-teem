@@ -29,7 +29,7 @@ module.exports = {
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
     "react/no-unused-prop-types": "error",
-    "react/prefer-es6-class": ["error", "never"],
+    "react/prefer-es6-class": "error",
     "react/prefer-stateless-function": "error",
     "react/prop-types": ["error", { "ignore": ["style", "children"] }],
     "react/react-in-jsx-scope": "error",
@@ -38,11 +38,11 @@ module.exports = {
     "react/self-closing-comp": "error",
     "react/sort-comp": ["error", {
       order: [
+        'static-methods',
         'lifecycle',
         'everything-else',
+        'style',
         'rendering',
-        'responsive',
-        'style'
       ],
       groups: {
         rendering: [
