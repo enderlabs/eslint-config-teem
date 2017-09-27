@@ -69,7 +69,6 @@ module.exports = {
     "react/jsx-equals-spacing": "error",
     "react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
     "react/jsx-first-prop-new-line": ["error", "multiline"],
-    "react/jsx-handler-names": ["error", { "eventHandlerPrefix": "_handle" }],
     "react/jsx-indent": ["error", 2],
     "react/jsx-indent-props": ["error", 2],
     "react/jsx-key": "error",
