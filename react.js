@@ -29,7 +29,7 @@ module.exports = {
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
     "react/no-unused-prop-types": "error",
-    "react/prefer-es6-class": ["error", "never"],
+    "react/prefer-es6-class": "error",
     "react/prefer-stateless-function": "error",
     "react/prop-types": ["error", { "ignore": ["style", "children"] }],
     "react/react-in-jsx-scope": "error",
@@ -38,11 +38,12 @@ module.exports = {
     "react/self-closing-comp": "error",
     "react/sort-comp": ["error", {
       order: [
+        'static-methods',
         'lifecycle',
         'everything-else',
+        'style',
         'rendering',
         'responsive',
-        'style'
       ],
       groups: {
         rendering: [
@@ -63,15 +64,15 @@ module.exports = {
     "react/style-prop-object": "error",
 
     // REACT JSX
-    "react/jsx-boolean-value": ["error", "always"],
+    "react/jsx-boolean-value": "off",
     "react/jsx-closing-bracket-location": "error",
     "react/jsx-curly-spacing": "error",
     "react/jsx-equals-spacing": "error",
     "react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
     "react/jsx-first-prop-new-line": ["error", "multiline"],
-    "react/jsx-handler-names": ["error", { "eventHandlerPrefix": "_handle" }],
-    "react/jsx-indent": ["error", 2],
+    "react/jsx-handler-names": "off",
     "react/jsx-indent-props": ["error", 2],
+    "react/jsx-indent": ["error", 2],
     "react/jsx-key": "error",
     "react/jsx-max-props-per-line": ["error", { "maximum": 3 }],
     "react/jsx-no-bind": "off",
@@ -81,6 +82,30 @@ module.exports = {
     "react/jsx-no-target-blank": "error",
     "react/jsx-no-undef": "error",
     "react/jsx-pascal-case": "error",
+    "react/sort-comp": ["error", {
+      order: [
+        'static-methods',
+        'lifecycle',
+        'everything-else',
+        'style',
+        'rendering',
+      ],
+      groups: {
+        rendering: [
+          '/^render.+$/',
+          'render'
+        ],
+        responsive: [
+          'breakpoints',
+          'offsets',
+          'orders',
+          'spans'
+        ],
+        style: [
+          'styles'
+        ]
+      }
+    }],
     "react/jsx-sort-props": ["error", { "ignoreCase": true }],
     "react/jsx-space-before-closing": "error",
     "react/jsx-tag-spacing": "error",
